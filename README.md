@@ -12,6 +12,7 @@ Verify the same by running below commands in terminal
 
 * WebdriverIO (JavaScript based framework) is used.
 * WebdriverIO has inbuilt assertion library and Test Runner(spec) support.
+* Test scenarios can be found in scenario.md file
 * Mocha (describe,it syntax ) is used to write test cases in specs/TC100_afrLandingPage.js
 * Page Object model is used to design tests, can be found in tests/pageobjects
 * All the test configuration(base url, chrome options) is present in wdio.conf.js file in root directory.
