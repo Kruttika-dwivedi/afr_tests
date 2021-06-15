@@ -1,31 +1,26 @@
 **Prerequisties**
 
-Nodejs stable version should be installed on local machine
-
+Java, Node module manager and Nodejs stable version should be installed on local machine
 Verify the same by running below commands in terminal
 
-node --version
-
-npm --version
+* java --version
+* node --version
+* npm --version
 
 
 **Tech Stack**
 
-WebdriverIO (JavaScript based framework) is used.
-
-WebdriverIO has inbuilt assertion library and Test Runner support.
-
-Mocha (describe,it syntax ) is used to write test cases.
-
-Page Object model is used to design tests .
-
-All the test configuration(base url, chrome options) is present in wdio.conf.js file in root directory.
+* WebdriverIO (JavaScript based framework) is used.
+* WebdriverIO has inbuilt assertion library and Test Runner(spec) support.
+* Mocha (describe,it syntax ) is used to write test cases in specs/TC100_afrLandingPage.js
+* Page Object model is used to design tests, can be found in tests/pageobjects
+* All the test configuration(base url, chrome options) is present in wdio.conf.js file in root directory.
 
 
 **Setting up locally**
 
-1) Clone the repo to your local from 
-2) run npm ci command
-3) npm run test
-4) Verify that spec files are getting passed
-5) Verify the screenshots(one with popup and one without) in screenshots directory
+* Clone the repo to your local from https://github.com/Kruttika-dwivedi/afr_tests/
+* In the terminal run 'npm ci' command to install the dependencies
+* To execute test cases run 'npm run test'
+* Verify that spec file is passing all test cases
+* Verify the screenshots(one with popup and one without) in screenshots directory
